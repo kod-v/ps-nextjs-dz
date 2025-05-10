@@ -1,5 +1,14 @@
+import { type Metadata } from "next";
 import Image from "next/image";
 import styles from "./page.module.css";
+
+export async function generateMetadata(): Promise<Metadata> {
+  // Тут можно запросить данные из API
+
+  return {
+    title: "Главная страница",
+  };
+}
 
 export default function Home() {
   return (
