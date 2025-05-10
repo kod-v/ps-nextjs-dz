@@ -1,0 +1,26 @@
+name: ps-next-dz
+
+services:
+  # В официальной документации уже есть пример, просто скопируем его
+  # https://github.com/vercel/next.js/blob/canary/examples/with-docker-compose/compose.dev.yaml
+  next-blog-app:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+
+    # Set environment variables based on the .env file
+    env_file:
+      - .next-blog-app.env
+    volumes:
+      - ../:/app
+    restart: always
+    ports:
+      - 3000:3000
+    # networks:
+    # - my_network
+  # Add more containers below (nginx, postgres, etc.)
+# Define a network, which allows containers to communicate
+# with each other, by using their container name as a hostname
+# networks:
+#   my_network:
+#     external: true
