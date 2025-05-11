@@ -1,0 +1,15 @@
+.like {
+  display: inline-block;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 12px;
+  width: 400;
+
+  color: #6e6e6e;
+}
+
+.icon {
+  margin-left: 5px;
+}
