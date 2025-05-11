@@ -3,10 +3,6 @@
   flex-direction: row;
 }
 
-/* [class*="spacing"] > :not(style):not(style) {
-  margin: 0px;
-} */
-
 .spacing-0 {
   gap: 0px;
 }
