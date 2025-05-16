@@ -1,0 +1,8 @@
+.media {
+  width: 100%;
+  background-color: #e5f4ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

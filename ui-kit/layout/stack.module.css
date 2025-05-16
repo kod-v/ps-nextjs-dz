@@ -1,0 +1,24 @@
+.stack {
+  display: flex;
+  flex-direction: row;
+}
+
+.spacing-0 {
+  gap: 0px;
+}
+
+.spacing-1 {
+  gap: calc(0.5 * 8px);
+}
+
+.spacing-2 {
+  gap: calc(1 * 8px);
+}
+
+.spacing-3 {
+  gap: calc(1.5 * 8px);
+}
+
+.spacing-4 {
+  gap: calc(2 * 8px);
+}

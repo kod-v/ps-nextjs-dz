@@ -1,0 +1,22 @@
+.post-card {
+  max-width: 360px;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #2c2c2c;
+}
+
+.content-body {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--c-black-20);
+}
